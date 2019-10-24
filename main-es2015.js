@@ -32,7 +32,7 @@ webpackEmptyAsyncContext.id = "./$$_lazy_route_resource lazy recursive";
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-md bg-light navbar-light\">\n  <a class=\"navbar-brand\" href routerLink=\"/\">\n    <img src=\"../assets/Logo/C3_Logo.png\" class=\"responsive\">\n  </a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsibleNavbar\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"collapsibleNavbar\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/\">Home</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/c3-cup\">C<sup>3</sup> Cup</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/competitions\">Competitions</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/resources\">Resources</a>\n      </li>    \n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/sponsorship\">Sponsorship</a>\n      </li>    \n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/team-C3\">Team C<sup>3</sup></a>\n      </li>    \n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/contact\">Contact</a>\n        </li>    \n    </ul>\n  </div>  \n</nav>\n<div class=\"container-fluid\">\n  <router-outlet></router-outlet>\n</div>");
+/* harmony default export */ __webpack_exports__["default"] = ("<nav class=\"navbar navbar-expand-md bg-light navbar-light\">\n  <a class=\"navbar-brand\" href routerLink=\"/\">\n    <img src=\"../assets/Logo/C3_Logo.png\" class=\"responsive\">\n  </a>\n  <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#collapsibleNavbar\">\n    <span class=\"navbar-toggler-icon\"></span>\n  </button>\n  <div class=\"collapse navbar-collapse\" id=\"collapsibleNavbar\">\n    <ul class=\"navbar-nav\">\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/home\" routerLinkActive=\"active\">Home</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/c3-cup\" routerLinkActive=\"active\">C<sup>3</sup> Cup</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/competitions\" routerLinkActive=\"active\">Competitions</a>\n      </li>\n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/resources\" routerLinkActive=\"active\">Resources</a>\n      </li>    \n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/sponsorship\" routerLinkActive=\"active\">Sponsorship</a>\n      </li>    \n      <li class=\"nav-item\">\n        <a class=\"nav-link\" routerLink=\"/team-C3\" routerLinkActive=\"active\">Team C<sup>3</sup></a>\n      </li>    \n      <li class=\"nav-item\">\n          <a class=\"nav-link\" routerLink=\"/contact\" routerLinkActive=\"active\">Contact</a>\n        </li>    \n    </ul>\n  </div>  \n</nav>\n<div class=\"container-fluid\">\n  <router-outlet></router-outlet>\n</div>");
 
 /***/ }),
 
@@ -393,7 +393,7 @@ const routes = [
         pathMatch: 'full'
     },
     {
-        path: '',
+        path: 'home',
         component: _components_home_home_component__WEBPACK_IMPORTED_MODULE_3__["HomeComponent"]
     },
     {
